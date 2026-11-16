@@ -1,0 +1,13 @@
+{
+  "name": "ctc-puzzles",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch.ts",
+    "build": "node scripts/build.ts",
+    "test": "node --test scripts/"
+  }
+}
